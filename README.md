@@ -77,3 +77,43 @@ Kirti Bhalla
 - (Future Scope) API integration to clinic calendar.
 - (Future Scope) Auto-confirmation via WhatsApp or SMS.
 - (Future Scope) Store appointments in a customer database or CRM.
+
+
+
+## 13. Non-Functional Requirements (NFRs)
+
+### 1. Usability
+- The chatbot should be easy to use for patients of all age groups.
+- Conversations must be simple, clear, and guided.
+- The chatbot must provide quick reply options for faster navigation.
+
+### 2. Performance
+- Responses should be generated within 1–2 seconds.
+- The system should handle multiple users at the same time without crashing.
+
+### 3. Reliability
+- The chatbot should maintain consistent responses across all supported platforms.
+- All conversation flows should have fallback handling to avoid dead ends.
+
+### 4. Availability
+- The chatbot should be available 24/7 for answering patient questions.
+- If using website embedding, the bot should load even during high-traffic hours.
+
+### 5. Scalability
+- System should support adding new intent categories (e.g., cosmetic dentistry, pediatric dentistry).
+- Architecture should allow integration with CRM, website, and appointment calendar in future.
+
+### 6. Security
+- The chatbot must not store sensitive customer data without encryption.
+- Communication between integrations (future API calls) must use HTTPS.
+- Any personally identifiable information collected must follow GDPR/DPDP compliance guidelines.
+
+### 7. Maintainability
+- Conversation steps should be modular in Voiceflow for easy updates.
+- Documentation should be updated whenever flows change.
+
+### 8. Compatibility
+- The chatbot should work across laptop, mobile browsers, and embedded website modes.
+- The browser-based demo should run without requiring installation.
+
+
