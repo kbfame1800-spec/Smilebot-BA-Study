@@ -48,8 +48,10 @@ Documentation is being prepared step by step as part of a full BA  project.
 * Folder Structure
 
 SmileBot-Dental-Clinic-Chatbot-BA-Case-Study/
+
 │
 ├── README.md                                 # Main project documentation
+
 │
 ├── docs/                                      # Business analysis documentation
 │   ├── problem_statement.md                   # Defined business problem
@@ -59,6 +61,7 @@ SmileBot-Dental-Clinic-Chatbot-BA-Case-Study/
 │   ├── use_case_document.md                   # Use cases & descriptions
 │   ├── functional_requirements.md             # Detailed functional specs
 │   └── non_functional_requirements.md         # NFRs (performance, usability)
+
 │
 ├── diagrams/                                  # All diagrams (exported PNGs)
 │   ├── high_level_business_process_flow.png
@@ -66,9 +69,11 @@ SmileBot-Dental-Clinic-Chatbot-BA-Case-Study/
 │   ├── data_flow_diagram.png
 │   └── use_case_diagram.png
 │
+
 ├── voiceflow/                                 # Voiceflow conversational flow exports
 │   └── smilebot_flow.json                     # Voiceflow export (optional)
 │
+
 └── prototype/                                 # Demo links or prototype files
     ├── chatbot_demo_link.txt                  # Voiceflow chatbot live link
     └── presentation_slides.pdf                # Optional project presentation
@@ -78,7 +83,7 @@ SmileBot-Dental-Clinic-Chatbot-BA-Case-Study/
 Kirti Bhalla
 
 
-## 12. Feature List
+##. Feature List
 
 ### 1. Customer-Facing Features
 - Provide clinic timings, address, and available services.
@@ -105,7 +110,7 @@ Kirti Bhalla
 
 
 
-## 13. Non-Functional Requirements (NFRs)
+##. Non-Functional Requirements (NFRs)
 
 ### 1. Usability
 - The chatbot should be easy to use for patients of all age groups.
@@ -142,7 +147,7 @@ Kirti Bhalla
 - The browser-based demo should run without requiring installation.
 
 
-## 14. User Stories with Acceptance Criteria
+## User Stories with Acceptance Criteria
 
 ### **User Story 1: View Clinic Information**
 As a patient, I want to view basic clinic information so that I know the clinic hours, location, and services.
@@ -205,7 +210,7 @@ As a clinic manager, I want the chatbot to handle routine questions so that the 
 - Bot should reduce receptionist query load during peak hours.
 
 
-## 15. High-Level Process Flow (Business Workflow)
+## High-Level Process Flow (Business Workflow)
 
 This diagram shows how the patient, chatbot, receptionist, and appointment system interact end-to-end during booking, rescheduling, information queries, or cancellation.
 
@@ -225,7 +230,7 @@ This diagram shows how the patient, chatbot, receptionist, and appointment syste
 7. Chatbot sends final confirmation message to the patient.
 
 
-### 🛠 High-Level Business Process Flow
+###  High-Level Business Process Flow
 ![High Level Process Flow](images/high level business process flow.drawio.png)
 
 
