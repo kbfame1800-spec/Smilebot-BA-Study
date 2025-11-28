@@ -24,8 +24,7 @@ This repository contains a complete end-to-end Business Analysis case study for 
 
 * Purpose
 
-This project demonstrates core business analyst skills, including:requirements gathering, documentation, process modeling, structured thinking,
-and communication with stakeholders.
+This project demonstrates core business analyst skills, including:requirements gathering, documentation, process modeling, structured thinking, and communication with stakeholders.
 
 * Chatbot Demo Link
 
