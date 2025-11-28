@@ -29,7 +29,7 @@ and communication with stakeholders.
 
 * Chatbot Demo Link
 
-#()
+https://kbfame1800-spec.github.io/dental-chatbot-demo/
 
 * Status
 
@@ -47,7 +47,32 @@ Documentation is being prepared step by step as part of a full BA  project.
 
 * Folder Structure
 
-()
+SmileBot-Dental-Clinic-Chatbot-BA-Case-Study/
+│
+├── README.md                                 # Main project documentation
+│
+├── docs/                                      # Business analysis documentation
+│   ├── problem_statement.md                   # Defined business problem
+│   ├── stakeholder_analysis.md                # List of stakeholders & roles
+│   ├── requirement_gathering_notes.md         # Interview questions & BA notes
+│   ├── business_requirements_document.md      # BRD (Business Requirements)
+│   ├── use_case_document.md                   # Use cases & descriptions
+│   ├── functional_requirements.md             # Detailed functional specs
+│   └── non_functional_requirements.md         # NFRs (performance, usability)
+│
+├── diagrams/                                  # All diagrams (exported PNGs)
+│   ├── high_level_business_process_flow.png
+│   ├── chatbot_sequence_diagram.png
+│   ├── data_flow_diagram.png
+│   └── use_case_diagram.png
+│
+├── voiceflow/                                 # Voiceflow conversational flow exports
+│   └── smilebot_flow.json                     # Voiceflow export (optional)
+│
+└── prototype/                                 # Demo links or prototype files
+    ├── chatbot_demo_link.txt                  # Voiceflow chatbot live link
+    └── presentation_slides.pdf                # Optional project presentation
+
 
 * Created by
 Kirti Bhalla
