@@ -199,3 +199,8 @@ This diagram shows how the patient, chatbot, receptionist, and appointment syste
 6. Appointment system confirms booking/reschedule/cancellation.
 7. Chatbot sends final confirmation message to the patient.
 
+
+### 🛠 High-Level Business Process Flow
+![High Level Process Flow](images/high level business process flow.drawio.png)
+
+
