@@ -129,12 +129,10 @@ Workflow Diagram
 
 All prototype files are inside /prototype
 
-chatbot_demo_link.txt – contains the live demo link
-
-presentation_slides.pdf (optional if you add later)
+https://kbfame1800-spec.github.io/dental-chatbot-demo/ – contains the live demo link
 
 🏗️ Folder Structure
-SmileBot-Dental-Clinic-Chatbot-BA-Case-Study/
+smileBot-dental-chatbot-ba-Case-Study/
 
 README.md
 docs/
