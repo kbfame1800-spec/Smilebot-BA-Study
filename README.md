@@ -1,5 +1,5 @@
 🦷 SmileBot – AI Chatbot for GentleCare Dental Clinic
-End-to-End Business Analysis Case Study
+(End-to-End Business Analysis Case Study)
 
 This repository contains a complete Business Analyst project created for GentleCare Dental Clinic's AI-powered chatbot – “SmileBot.”
 
@@ -7,7 +7,7 @@ The project demonstrates real-world BA documentation, including requirements gat
 
 This is a portfolio-ready end-to-end BA case study built from scratch.
 
-⭐ Project Purpose
+⭐ Project Purpose:-
 
 This project showcases core Business Analyst skills:
 
@@ -40,25 +40,25 @@ https://kbfame1800-spec.github.io/dental-chatbot-demo/
 
 This demo was built using Voiceflow and simulates a real dental clinic chatbot.
 
-🧠 What SmileBot Can Do
+🧠 What SmileBot Can Do:
 
-Provide clinic timings, address, and services
+* Provide clinic timings, address, and services
 
-Answer FAQs
+* Answer FAQs
 
-Help patients book appointments
+* Help patients book appointments
 
-Reschedule appointments
+* Reschedule appointments
 
-Cancel appointments
+* Cancel appointments
 
-Provide dental care suggestions
+* Provide dental care suggestions
 
-Reduce receptionist workload
+* Reduce receptionist workload
 
-Improve patient engagement
+* Improve patient engagement
 
-📁 Project Documentation (Linked Files)
+📁 Project Documentation (Linked Files):
 
 All Business Analysis documents are stored inside the /docs folder and linked here for easy access.
 
@@ -134,7 +134,8 @@ All prototype files are inside /prototype
 
 [https://kbfame1800-spec.github.io/dental-chatbot-demo/](prototype/index.html) – contains the live demo link
 
-🏗️ Folder Structure
+🏗️ Folder Structure:-
+
 smilebot-dental-chatbot-ba/
 
 /docs
