@@ -135,36 +135,22 @@ presentation_slides.pdf (optional if you add later)
 
 🏗️ Folder Structure
 SmileBot-Dental-Clinic-Chatbot-BA-Case-Study/
-│
-├── README.md
-│
 
-├── docs/
+README.md
+docs/
+   Problem_Statement.md
+   stakeholder_analysis.md
+   BRD_GentleCare_SmileBot.md
+   functional_requirements.md
+   functional_and_nonfunctional_requirements.md
+   AS-IS_TO-BE_Process.md
+   System_Workflow_Description.md
+   use_case_document.md
+   User_Stories_with_Acceptance_Criteria.md
+   user-stories.md
+   SRS-GentleCare-Chatbot.md
+   Wireframes_Description.md
 
-│   ├── Problem_Statement.md
-
-│   ├── stakeholder_analysis.md
-
-│   ├── BRD_GentleCare_SmileBot.md
-
-│   ├── functional_requirements.md
-
-│   ├── functional_and_nonfunctional_requirements.md
-
-│   ├── SRS-GentleCare-Chatbot.md
-
-│   ├── AS-IS_TO-BE_Process.md
-
-│   ├── use_case_document.md
-
-│   ├── User_Stories_with_Acceptance_Criteria.md
-
-│   ├── user-stories.md
-
-│   ├── System_Workflow_Description.md
-
-│   ├── Wireframes_Description.md
-│
 
 ├── images/
 
