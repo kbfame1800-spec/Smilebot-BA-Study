@@ -111,6 +111,7 @@ All Business Analysis documents are stored inside the /docs folder and linked he
 
 🖼️ Diagrams (From /images Folder)
 
+
 [High-Level Business Process Flow](images/high_level_business_process_flow.drawio.png)
 
 [Current AS-IS Workflow](images/current_flow.drawio.png)
