@@ -34,22 +34,22 @@ Patients frequently contact the clinic for common queries such as clinic timings
 
 5. Scope of the Project:
 
-  In Scope
-   * Chatbot interaction flow for FAQs
-   * Appointment creation flow
-   * Appointment cancellation flow
-   * Appointment rescheduling flow
-   * Capturing patient details (name, phone number, appointment ID)
-   * Providing dental care suggestions
-   * Simple text-based interface
-   * Integration with existing appointment process (manual backend by receptionist)
+   In Scope
+    * Chatbot interaction flow for FAQs
+    * Appointment creation flow
+    * Appointment cancellation flow
+    * Appointment rescheduling flow
+    * Capturing patient details (name, phone number, appointment ID)
+    * Providing dental care suggestions
+    * Simple text-based interface
+    * Integration with existing appointment process (manual backend by receptionist)
 
-  Out of Scope
-   * Automated payment integration
-   * Full patient record management
-   * Clinic inventory or billing systems
-   * Deep medical diagnosis
-   * Complex triage or emergency assistance
+   Out of Scope
+    * Automated payment integration
+    * Full patient record management
+    * Clinic inventory or billing systems
+    * Deep medical diagnosis
+    * Complex triage or emergency assistance
 
 6. Assumptions
 
