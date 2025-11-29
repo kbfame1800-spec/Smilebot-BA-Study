@@ -68,15 +68,15 @@ All Business Analysis documents are stored inside the /docs folder and linked he
 
 👥 2. Stakeholder Analysis
 
-👉 stakeholder_analysis.md
+[👉 stakeholder_analysis.md](docs/stakeholder_analysis.md)
 
 📌 3. Business Requirements Document (BRD)
 
-👉 BRD_GentleCare_SmileBot.md
+[👉 BRD_GentleCare_SmileBot.md](docs/BRD_GentleCare_SmileBot.md)
 
 ⚙️ 4. Functional Requirements
 
-👉 functional_requirements.md
+[👉 functional_requirements.md](docs/functional_requirements.md)
 
 🛡️ 5. Functional + Non-Functional Requirements
 
