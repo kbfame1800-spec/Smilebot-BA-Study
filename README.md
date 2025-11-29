@@ -157,7 +157,7 @@ smilebot-dental-chatbot-ba/
    Reschedule.png
    TO-BE_Flow.png
    current_Flow.png
-   High-Level Process Flow.png
+   High-Level Business Process Flow.png
    Workflow Diagram.png
 
 /prototype
