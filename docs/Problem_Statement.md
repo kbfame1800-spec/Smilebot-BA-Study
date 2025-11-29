@@ -7,30 +7,20 @@ The dental clinic currently handles all customer communication through walk-ins 
 
 Patients frequently contact the clinic for common queries such as clinic timings, available services, pricing, and appointment scheduling or rescheduling.
 Due to high call volume and limited staff, the receptionist is unable to answer every call immediately. This results in:
+ * Missed appointment opportunities
+ * Delays in providing important information
+ * Repetitive manual work
+ * Poor customer experience
+ * Increased workload for staff
 
-Missed appointment opportunities
-
-Delays in providing important information
-
-Repetitive manual work
-
-Poor customer experience
-
-Increased workload for staff
-
-3. Business Impact
+3. Business Impact:-
 
 The current system leads to:
-
-Reduced patient satisfaction
-
-Loss of potential clients due to unanswered calls
-
-Inefficiency in handling repetitive inquiries
-
-Overdependence on receptionist availability
-
-Lower operational productivity
+  * Reduced patient satisfaction
+  * Loss of potential clients due to unanswered calls
+  * Inefficiency in handling repetitive inquiries
+  * Overdependence on receptionist availability
+  * Lower operational productivity
 
 4. Project Goal / Objective
 
