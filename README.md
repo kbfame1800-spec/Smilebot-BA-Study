@@ -111,21 +111,21 @@ All Business Analysis documents are stored inside the /docs folder and linked he
 
 🖼️ Diagrams (From /images Folder)
 
-[High-Level Business Process Flow](images/)
+[High-Level Business Process Flow](images/high_level_business_process_flow.drawio.png)
 
-[Current AS-IS Workflow](images/)
+[Current AS-IS Workflow](images/current_flow.drawio.png)
 
-[TO-BE Improved Workflow](images/)
+[TO-BE Improved Workflow](images/TO-BE_flow.drawio.png)
 
 [Booking Appointment Flow](images/Book_Appointmnt_Flow.drawio.png)
 
-[Rescheduling Flow](images/)
+[Rescheduling Flow](images/Reschedule.drawio.png)
 
-[FAQ Flow](images/)
+[FAQ Flow](images/FAQs.drawio.png)
 
-[Wireframe – Main Screen](images/)
+[Wireframe – Main Screen](images/Main_Screen_Frame.drawio.png)
 
-[Workflow Diagram](images/)
+[Workflow Diagram](images/workflow_Diagram.drawio.png)
 
 🧪 Prototype & Supporting Files
 
@@ -136,8 +136,7 @@ All prototype files are inside /prototype
 🏗️ Folder Structure
 smilebot-dental-chatbot-ba/
 
-[Link Text](docs/Problem_Statement.md)
-docs/
+/docs
    Problem_Statement.md
    stakeholder_analysis.md
    BRD_GentleCare_SmileBot.md
@@ -151,31 +150,19 @@ docs/
    SRS-GentleCare-Chatbot.md
    Wireframes_Description.md
 
+/images
+   Book_Appointment_Flow.png
+   FAQs.png
+   Main_Screen_Frame.png
+   Reschedule.png
+   TO-BE_Flow.png
+   current_Flow.png
+   High-Level Process Flow.png
+   Workflow Diagram.png
 
-├── images/
+/prototype
+   chatbot_demo_link.txt
 
-│   ├── Book Appointmnt Flow.drawio.png
-
-│   ├── FAQs.drawio.png
-
-│   ├── Main Screen Frame.drawio.png
-
-│   ├── Reschedule.drawio.png
-
-│   ├── TO- BE flow.drawio.png
-
-│   ├── current flow.drawio.png
-
-│   ├── high level business process flow.drawio.png
-
-│   ├── workflow Diagram.drawio.png
-│
-├── prototype/
-│   ├── chatbot_demo_link.txt
-│   ├── presentation_slides.pdf (optional)
-│
-└── voiceflow/
-    └── smilebot_flow.json (optional)
 
 👩‍💼 Created By
 
