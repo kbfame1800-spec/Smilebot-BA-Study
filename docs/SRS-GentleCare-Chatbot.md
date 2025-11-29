@@ -21,17 +21,17 @@ This SRS is intended for stakeholders, business analysts, developers, and tester
 
 The chatbot is an AI-powered system integrated into the dental clinic’s website to:
 
-Provide clinic hours, services, and FAQs
+* Provide clinic hours, services, and FAQs
 
-Book, reschedule, and cancel appointments
+* Book, reschedule, and cancel appointments
 
-Offer general dental care tips
+* Offer general dental care tips
 
-Reduce receptionist workload
+* Reduce receptionist workload
 
-Improve patient engagement and availability
+* Improve patient engagement and availability
 
-The system supports walk-in and phone-based workflows currently handled by a receptionist.
+* The system supports walk-in and phone-based workflows currently handled by a receptionist.
 
 1.3 Definitions
 Term	Definition
@@ -126,8 +126,7 @@ FR1.3 Provide clinic address
 
 FR1.4 Provide contact information
 
-FR2: Appointment Booking
-Workflow
+FR2: Appointment Booking Workflow
 
 User selects Book Appointment
 
@@ -245,17 +244,18 @@ Ready for integration with real clinic backend
 Support multilingual versions in future
 
 4. System Flow & Diagrams
+   
 4.1 High-Level Business Process Flow
 
-(Add link to your flowchart image)
+[High-Level Business Process Flow](images/high_level_business_process_flow.drawio.png)
 
 4.2 Sequence Diagram
 
-(Add link to your diagram)
+[Workflow Diagram](images/workflow_Diagram.drawio.png)
 
 4.3 Use Case Diagram
 
-(Optional — add later if created)
+[TO-BE Improved Workflow](images/TO-BE_flow.drawio.png)
 
 5. Future Enhancements
 
@@ -272,4 +272,4 @@ Admin dashboard with analytics
 6. Approval
 Role	Name	Signature	Date
 Business Analyst	Kirti Bhalla
-Product Owner			-
+
