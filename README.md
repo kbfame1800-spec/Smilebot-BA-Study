@@ -11,25 +11,25 @@ This is a portfolio-ready end-to-end BA case study built from scratch.
 
 This project showcases core Business Analyst skills:
 
-Requirement gathering
+1. Requirement gathering
 
-Stakeholder analysis
+2. Stakeholder analysis
 
-Writing BRD & SRS
+3. Writing BRD & SRS
 
-Creating AS-IS & TO-BE flows
+4. Creating AS-IS & TO-BE flows
 
-Designing use cases
+5. Designing use cases
 
-Creating user stories
+6. Creating user stories
 
-Process flow diagrams
+7. Process flow diagrams
 
-Wireframe descriptions
+8. Wireframe descriptions
 
-Organizing documentation in a structured project
+9. Organizing documentation in a structured project
 
-Communicating solutions to stakeholders
+10. Communicating solutions to stakeholders
 
 It represents how a BA would analyze and deliver a chatbot solution for a real dental clinic.
 
@@ -132,36 +132,58 @@ All Business Analysis documents are stored inside the /docs folder and linked he
 
 All prototype files are inside /prototype
 
-[https://kbfame1800-spec.github.io/dental-chatbot-demo/] – contains the live demo link
+[https://kbfame1800-spec.github.io/dental-chatbot-demo/](prototype/index.html) – contains the live demo link
 
 🏗️ Folder Structure
 smilebot-dental-chatbot-ba/
 
 /docs
+
    Problem_Statement.md
+   
    stakeholder_analysis.md
+   
    BRD_GentleCare_SmileBot.md
+   
    functional_requirements.md
+   
    functional_and_nonfunctional_requirements.md
+   
    AS-IS_TO-BE_Process.md
+   
    System_Workflow_Description.md
+   
    use_case_document.md
+   
    User_Stories_with_Acceptance_Criteria.md
+   
    user-stories.md
+   
    SRS-GentleCare-Chatbot.md
+   
    Wireframes_Description.md
+   
 
 /images
+
    Book_Appointment_Flow.png
+   
    FAQs.png
+   
    Main_Screen_Frame.png
+   
    Reschedule.png
+   
    TO-BE_Flow.png
+   
    current_Flow.png
+   
    High-Level_Business_Process_Flow.png
+   
    Workflow_Diagram.png
 
 /prototype
+
    chatbot_demo_link.txt
 
 
