@@ -118,6 +118,7 @@ USE CASES FOR SMILEBOT
         If valid → allow cancel/reschedule
 
     Alternate Flow:
+  
         If invalid → ask again or escalate to receptionist
 
     Postconditions: Only verified patients can modify appointments
