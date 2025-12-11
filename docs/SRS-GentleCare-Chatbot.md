@@ -4,9 +4,9 @@ Project: GentleCare Dental Clinic – AI Chatbot
 
 Version: 1.0
 
-Date: 2025
+Date:10/12/2025
 
-Prepared by: Kirti Bhalla
+Prepared by: Kirti 
 
 1. Introduction
    
@@ -49,7 +49,7 @@ Prepared by: Kirti Bhalla
 
       The chatbot is an independent module embedded in the clinic’s website via Voiceflow widget.
 
-   >>System Components
+    * System Components
 
       i. Chatbot UI (embedded widget)
 
@@ -101,7 +101,7 @@ Prepared by: Kirti Bhalla
 
       The chatbot must respond to information queries.
 
-    Sub-requirements
+    !Sub-requirements!
 
       FR1.1 Provide clinic working hours
 
@@ -113,133 +113,139 @@ Prepared by: Kirti Bhalla
 
    FR2: Appointment Booking Workflow
 
-      User selects Book Appointment-> Provide name-> Provide phone number-> Provide preferred date & time-> Chatbot checks availability-> Appointment is created-> Appointment ID is generated->Confirmation message is returned-> Requirements
+      Step 1. User selects Book Appointment
+      Step 2. Provide name
+      Step 3. Provide phone number
+      Step 4. Provide preferred date & time
+      Step 5. Chatbot checks availability
+      Step 6. Appointment is created
+      Step 7. Appointment ID is generated
+      Step 8. Confirmation message is returned
 
-      FR2.1 Validate phone number input
+   !Requirements!
 
-      FR2.2 Validate time slot
+      * FR2.1 Validate phone number input
 
-      FR2.3 Store appointment details in system
+      * FR2.2 Validate time slot
 
-      FR2.4 Generate appointment ID
+      * FR2.3 Store appointment details in system
+
+      * FR2.4 Generate appointment ID
 
 FR3: Appointment Rescheduling:>
 
-Workflow
+   {Workflow}
+   
+   Step 1. User selects Reschedule Appointment
+   Step 2. Input Appointment ID
+   Step 3. System verifies ID
+   Step 4. Ask for new date & time
+   Step 5. Confirm reschedule
 
-User selects Reschedule Appointment
-        |
-Input Appointment ID
-        |
-System verifies ID
-        |
-Ask for new date & time
-        |
-Confirm reschedule
-        |
-Requirements
+!Requirements!
 
-FR3.1 Validate appointment ID
+   * FR3.1 Validate appointment ID
 
-FR3.2 Check new slot availability
+   * FR3.2 Check new slot availability
 
-FR3.3 Update appointment record
+   * FR3.3 Update appointment record
 
-FR4: Appointment Cancellation
-Workflow
+   * FR4: Appointment Cancellation
+     
+      { Workflow}
 
-User chooses Cancel Appointment
+        Step 1. User chooses Cancel Appointment
+        Step 2. Enter Appointment ID
+        Step 3. System verifies record
+        Step 4. Appointment is deleted
+        Step 5. Confirmation message sent
 
-Enter Appointment ID
+ !Requirements!
 
-System verifies record
+   FR4.1 Validate appointment ID
 
-Appointment is deleted
+   FR4.2 Remove appointment data
 
-Confirmation message sent
-
-Requirements
-
-FR4.1 Validate appointment ID
-
-FR4.2 Remove appointment data
-
-FR4.3 Return final cancellation message
+   FR4.3 Return final cancellation message
 
 FR5: Dental Care Tips
 
-FR5.1 Provide general safety tips (non-medical)
+   FR5.1 Provide general safety tips (non-medical)
 
-FR5.2 Tips must not replace medical advice
-
+   FR5.2 Tips must not replace medical advice
+   
 FR6: Identity Verification
 
-FR6.1 Verify phone number for bookings
+   FR6.1 Verify phone number for bookings
 
-FR6.2 Verify Appointment ID for edit/cancellation
+   FR6.2 Verify Appointment ID for edit/cancellation
 
 3.2 Non-Functional Requirements
-NFR1: Performance
 
-Response time ≤ 2 seconds
+   NFR1: Performance
 
-Handle ~50 concurrent users (simulated)
+   * Response time ≤ 2 seconds
 
-NFR2: Usability
+   * Handle ~50 concurrent users (simulated)
 
-Simple conversational flow
+   NFR2: Usability
 
-Mobile and desktop compatible
+   * Simple conversational flow
 
-Clear instructions and error messages
+   * Mobile and desktop compatible
 
-NFR3: Security
+   * Clear instructions and error messages
 
-User details stored securely in Voiceflow
+   NFR3: Security
 
-No sensitive medical data collected
+   * User details stored securely in Voiceflow
 
-Avoid sharing personal data unnecessarily
+   * No sensitive medical data collected
 
-NFR4: Reliability
+   * Avoid sharing personal data unnecessarily
 
-99% uptime target
+   NFR4: Reliability
 
-Handle invalid inputs gracefully
+   * 99% uptime target
 
-NFR5: Scalability
+   * Handle invalid inputs gracefully
 
-Ready for integration with real clinic backend
+   NFR5: Scalability
 
-Support multilingual versions in future
+   * Ready for integration with real clinic backend
+
+   * Support multilingual versions in future
 
 4. System Flow & Diagrams
    
-4.1 High-Level Business Process Flow
+   4.1 High-Level Business Process Flow
 
-[High-Level Business Process Flow](images/high_level_business_process_flow.drawio.png)
+      [High-Level Business Process Flow](images/high_level_business_process_flow.drawio.png)
 
-4.2 Sequence Diagram
+   4.2 Sequence Diagram
 
-[Workflow Diagram](images/workflow_Diagram.drawio.png)
+      [Workflow Diagram](images/workflow_Diagram.drawio.png)
 
-4.3 Use Case Diagram
+   4.3 Use Case Diagram
 
-[TO-BE Improved Workflow](images/TO-BE_flow.drawio.png)
+      [TO-BE Improved Workflow](images/TO-BE_flow.drawio.png)
 
 5. Future Enhancements
 
-Integration with actual database
+   1. Integration with actual database
 
-OTP verification for user identity
+   2. OTP verification for user identity
 
-Payment integration for prepaid appointments
+   3. Payment integration for prepaid appointments
 
-WhatsApp bot compatibility
+   4. WhatsApp bot compatibility
 
-Admin dashboard with analytics
+   5. Admin dashboard with analytics
 
 6. Approval
-Role	Name	Signature	Date
-Business Analyst	Kirti Bhalla
+
+Role : Business Analyst	
+Name: Kirti
+Date: 10/12/2025
+
 
