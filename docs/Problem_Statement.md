@@ -35,6 +35,7 @@ IV. Project Goal / Objective:
 V. Scope of the Project:
 
    In Scope
+   
     * Chatbot interaction flow for FAQs
     * Appointment creation flow
     * Appointment cancellation flow
@@ -45,6 +46,7 @@ V. Scope of the Project:
     * Integration with existing appointment process (manual backend by receptionist)
 
    Out of Scope
+   
     * Automated payment integration
     * Full patient record management
     * Clinic inventory or billing systems
