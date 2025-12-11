@@ -1,23 +1,23 @@
 1. Booking Appointments
 
-Requirement ID: FR-001
-Description: Chatbot should allow patients to book appointments by collecting name, phone number, preferred date/time, and type of service.
-Rationale: Replaces manual phone calls and saves receptionist time.
-Priority: High
+  Requirement ID: FR-001
+  Description: Chatbot should allow patients to book appointments by collecting name, phone number, preferred   date/time, and type of service.
+  Rationale: Replaces manual phone calls and saves receptionist time.
+  Priority: High
 
 2. Cancel Appointments
 
-Requirement ID: FR-002
-Description: Chatbot should allow patients to cancel an appointment by providing phone number + appointment ID.
-Rationale: Reduces receptionist workload and ensures proper verification.
-Priority: High
+  Requirement ID: FR-002
+  Description: Chatbot should allow patients to cancel an appointment by providing phone number + appointment   ID.
+  Rationale: Reduces receptionist workload and ensures proper verification.
+  Priority: High
 
 3. Reschedule Appointments
 
-Requirement ID: FR-003
-Description: Chatbot should allow patients to reschedule by providing phone number + appointment ID and new preferred time.
-Rationale: Supports flexibility for patients and reduces errors.
-Priority: High
+  Requirement ID: FR-003
+  Description: Chatbot should allow patients to reschedule by providing phone number + appointment ID and new   preferred time.
+  Rationale: Supports flexibility for patients and reduces errors.
+  Priority: High
 
 4. FAQ / General Information
 
