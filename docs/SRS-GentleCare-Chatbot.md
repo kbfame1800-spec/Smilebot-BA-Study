@@ -10,163 +10,133 @@ Prepared by: Kirti Bhalla
 
 1. Introduction
    
-1.1 Purpose
+   1.1 Purpose
 
-This Software Requirements Specification (SRS) defines all functional and non-functional requirements for the GentleCare Dental Clinic AI Chatbot.
-The chatbot provides clinic information, manages appointments, and supports patients with general dental care guidance.
+      This Software Requirements Specification (SRS) defines all functional and non-functional requirements        for the GentleCare Dental Clinic AI Chatbot.The chatbot provides clinic information, manages                 appointments, and supports patients with general dental care guidance.This SRS is intended for               stakeholders, business analysts, developers, and testers.
 
-This SRS is intended for stakeholders, business analysts, developers, and testers.
+   1.2 Scope
 
-1.2 Scope
+      The chatbot is an AI-powered system integrated into the dental clinic’s website to:
 
-The chatbot is an AI-powered system integrated into the dental clinic’s website to:
+      * Provide clinic hours, services, and FAQs
 
-* Provide clinic hours, services, and FAQs
+      * Book, reschedule, and cancel appointments
+      
+      * Offer general dental care tips
 
-* Book, reschedule, and cancel appointments
+      * Reduce receptionist workload
 
-* Offer general dental care tips
+      * Improve patient engagement and availability
 
-* Reduce receptionist workload
+      * The system supports walk-in and phone-based workflows currently handled by a receptionist.
 
-* Improve patient engagement and availability
-
-* The system supports walk-in and phone-based workflows currently handled by a receptionist.
-
-1.3 Definitions
-Term	Definition
-Chatbot	AI-based conversational interface
-Appointment ID	Unique identifier for appointments
-User	Patient who interacts with the chatbot
-Admin/Receptionist	Clinic staff managing appointments
-
-
-2. Overall Description
-
-2.1 Product Perspective
-
-The chatbot is an independent module embedded in the clinic’s website via Voiceflow widget.
-
-System Components
-
-Chatbot UI (embedded widget)
-
-AI conversation engine
-
-Voiceflow variable-based appointment storage
-
-Mock backend (future integration)
-
-2.2 Product Functions
-
-Primary Features
-
-Provide clinic information
-
-Appointment booking
-
-Appointment rescheduling
-
-Appointment cancellation
-
-Dental care tips
-
-Support Features
-
-Validate user inputs
-
-Identify user via phone number or appointment ID
-
-Generate appointment confirmations
-
-2.3 User Characteristics
-Patients
-
-Basic mobile/computer users
-
-Need appointment/services information
-
-Receptionist/Admin
-
-Uses collected data
-
-No technical skills required
-
-2.4 Constraints
-
-Requires stable internet
-
-Accuracy depends on AI responses
-
-Voiceflow free plan limits storage and data persistence
-
-2.5 Assumptions
-
-Phone number uniquely identifies a user
-
-Users enter correct appointment IDs
-
-Voiceflow components behave reliably
-
-3. System Requirements
+   1.3 Definitions:
    
-3.1 Functional Requirements
+      Term	Definition:
+   
+      i. Chatbot:> AI-based conversational interface
+   
+      ii. Appointment ID:> Unique identifier for appointments
+   
+      iii. User:> Patient who interacts with the chatbot
+   
+      iv. Admin/Receptionist:> Clinic staff managing appointments
 
-FR1: Provide Clinic Information
 
-The chatbot must respond to information queries.
+3. Overall Description
 
-Sub-requirements
+   2.1 Product Perspective
 
-FR1.1 Provide clinic working hours
+      The chatbot is an independent module embedded in the clinic’s website via Voiceflow widget.
 
-FR1.2 Provide list of dental services
+   >>System Components
 
-FR1.3 Provide clinic address
+      i. Chatbot UI (embedded widget)
 
-FR1.4 Provide contact information
+      ii. AI conversation engine
 
-FR2: Appointment Booking Workflow
+      iii. Voiceflow variable-based appointment storage
 
-User selects Book Appointment
+      iv. Mock backend (future integration)
 
-Provide name
+   2.2 Product Functions
 
-Provide phone number
+      Primary Features
 
-Provide preferred date & time
+      1. Provide clinic information
+      2. Appointment booking
+      3.  Appointment rescheduling
+      4.  Appointment cancellation
+      5.  Dental care tips
+      6.  Support Features
+      7.  Validate user inputs
+      8.  Identify user via phone number or appointment ID
+      9.  Generate appointment confirmations
 
-Chatbot checks availability
+   2.3 User Characteristics:
+   
+      Patients: Basic mobile/computer users and Need appointment/services information.
 
-Appointment is created
+      Receptionist/Admin: Uses collected data.
+   
+      No technical skills required
 
-Appointment ID is generated
+   2.4 Constraints
 
-Confirmation message is returned
+      1. Requires stable internet.
+      2. Accuracy depends on AI responses
+      3. Voiceflow free plan limits storage and data persistence
 
-Requirements
+   2.5 Assumptions
 
-FR2.1 Validate phone number input
+      1. Phone number uniquely identifies a user
+      2. Users enter correct appointment IDs
+      3. Voiceflow components behave reliably
 
-FR2.2 Validate time slot
+3. System Requirements:>
+   
+   3.1 Functional Requirements:
 
-FR2.3 Store appointment details in system
+      FR1: Provide Clinic Information
 
-FR2.4 Generate appointment ID
+      The chatbot must respond to information queries.
 
-FR3: Appointment Rescheduling
+    Sub-requirements
+
+      FR1.1 Provide clinic working hours
+
+      FR1.2 Provide list of dental services
+
+      FR1.3 Provide clinic address
+
+      FR1.4 Provide contact information
+
+   FR2: Appointment Booking Workflow
+
+      User selects Book Appointment-> Provide name-> Provide phone number-> Provide preferred date & time-> Chatbot checks availability-> Appointment is created-> Appointment ID is generated->Confirmation message is returned-> Requirements
+
+      FR2.1 Validate phone number input
+
+      FR2.2 Validate time slot
+
+      FR2.3 Store appointment details in system
+
+      FR2.4 Generate appointment ID
+
+FR3: Appointment Rescheduling:>
+
 Workflow
 
 User selects Reschedule Appointment
-
+        |
 Input Appointment ID
-
+        |
 System verifies ID
-
+        |
 Ask for new date & time
-
+        |
 Confirm reschedule
-
+        |
 Requirements
 
 FR3.1 Validate appointment ID
