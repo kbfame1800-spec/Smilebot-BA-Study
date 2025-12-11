@@ -21,98 +21,103 @@ USE CASES FOR SMILEBOT
       Chatbot checks availability
       Chatbot confirms appointment and generates Appointment ID
 
-Alternate Flow:
-If requested slot unavailable → Chatbot suggests next available time
+    Alternate Flow:
+  
+      If requested slot unavailable → Chatbot suggests next available time
 
-Postconditions: Appointment recorded and ID generated
+    Postconditions: Appointment recorded and ID generated
 
-Use Case 2: Cancel Appointment
+* Use Case 2: Cancel Appointment
 
-ID: UC-002
+    ID: UC-002
 
-Actor: Patient
+    Actor: Patient
 
-Description: Patient cancels existing appointment
+    Description: Patient cancels existing appointment
 
-Preconditions: Patient has valid Appointment ID
+    Preconditions: Patient has valid Appointment ID
 
-Trigger: Patient selects “Cancel Appointment”
+    Trigger: Patient selects “Cancel Appointment”
 
-Main Flow:
-Chatbot asks for phone number + Appointment ID
-Chatbot verifies identity
-Chatbot cancels appointment
-Chatbot confirms cancellation
+    Main Flow:
+  
+        Chatbot asks for phone number + Appointment ID
+        Chatbot verifies identity
+        Chatbot cancels appointment
+        Chatbot confirms cancellation
 
-Alternate Flow:
+    Alternate Flow:
 
-Incorrect Appointment ID → Chatbot asks again or escalates to receptionist
+        Incorrect Appointment ID → Chatbot asks again or escalates to receptionist
 
-Postconditions: Appointment removed from schedule
+    Postconditions: Appointment removed from schedule
 
-Use Case 3: Reschedule Appointment
+* Use Case 3: Reschedule Appointment
 
-ID: UC-003
+    ID: UC-003
 
-Actor: Patient
+    Actor: Patient
 
-Description: Patient reschedules an appointment
+    Description: Patient reschedules an appointment
 
-Preconditions: Patient has valid Appointment ID
+    Preconditions: Patient has valid Appointment ID
 
-Trigger: Patient selects “Reschedule Appointment”
+    Trigger: Patient selects “Reschedule Appointment”
 
-Main Flow:
-Chatbot asks for phone number + Appointment ID
-Chatbot verifies identity
-Chatbot asks for new date/time
-Chatbot checks availability
-Chatbot confirms updated appointment
+    Main Flow:
+  
+        Chatbot asks for phone number + Appointment ID
+        Chatbot verifies identity
+        Chatbot asks for new date/time
+        Chatbot checks availability
+        Chatbot confirms updated appointment
 
-Alternate Flow:
+    Alternate Flow:
 
-If new slot unavailable → Chatbot suggests alternative times
+        If new slot unavailable → Chatbot suggests alternative times
 
-Postconditions: Appointment updated
+    Postconditions: Appointment updated
 
-Use Case 4: FAQs / General Info
+* Use Case 4: FAQs / General Info
 
-ID: UC-004
+    ID: UC-004
 
-Actor: Patient
+    Actor: Patient
 
-Description: Patient asks common questions about the clinic
+    Description: Patient asks common questions about the clinic
 
-Preconditions: None
+    Preconditions: None
 
-Trigger: Patient selects “FAQ”
+    Trigger: Patient selects “FAQ”
 
-Main Flow:
-Chatbot provides answers about hours, services, pricing, dental tips
+    Main Flow:
+    
+        Chatbot provides answers about hours, services, pricing, dental tips
 
-Alternate Flow:
+    Alternate Flow:
 
-If question unknown → Chatbot escalates to receptionist or suggests contact
+        If question unknown → Chatbot escalates to receptionist or suggests contact
 
-Postconditions: Patient receives answer
+    Postconditions: Patient receives answer
 
-Use Case 5: Verify Patient Identity
+* Use Case 5: Verify Patient Identity
 
-ID: UC-005
+    ID: UC-005
 
-Actor: Patient
+    Actor: Patient
 
-Description: Chatbot verifies identity before cancel/reschedule
+    Description: Chatbot verifies identity before cancel/reschedule
 
-Preconditions: Appointment exists
+    Preconditions: Appointment exists
 
-Trigger: Patient provides phone number + Appointment ID
+    Trigger: Patient provides phone number + Appointment ID
 
-Main Flow:
-Chatbot cross-checks phone number and Appointment ID
-If valid → allow cancel/reschedule
+    Main Flow:
+  
+        Chatbot cross-checks phone number and Appointment ID
+        If valid → allow cancel/reschedule
 
-Alternate Flow:
-If invalid → ask again or escalate to receptionist
+    Alternate Flow:
+        If invalid → ask again or escalate to receptionist
 
-Postconditions: Only verified patients can modify appointments
+    Postconditions: Only verified patients can modify appointments
