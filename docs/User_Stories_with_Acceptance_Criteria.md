@@ -40,7 +40,7 @@ USER STORIES FOR SMILEBOT
 
   Story:
   
-     As a patient, I want to get answers to frequently asked questions so that I can know clinic hours,            services, and dental care tips instantly.
+     As a patient, I want to get answers to frequently asked questions so that I can know clinic hours, services, and dental care tips instantly.
 
   Acceptance Criteria:
   
@@ -51,7 +51,7 @@ USER STORIES FOR SMILEBOT
 
   Story:
   
-    As a patient, I want the chatbot to verify my identity before canceling or rescheduling appointments so       that my data and appointments remain secure.
+    As a patient, I want the chatbot to verify my identity before canceling or rescheduling appointments so that my data and appointments remain secure.
 
   Acceptance Criteria:
   
